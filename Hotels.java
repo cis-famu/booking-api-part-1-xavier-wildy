@@ -1,7 +1,6 @@
 package edu.famu.hotel_booking.model;
 
 import com.google.cloud.firestore.annotation.DocumentId;
-import com.google.firebase.database.annotations.Nullable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,11 +8,13 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Aircraft {
+public class Hotels {
     @DocumentId
-    private @Nullable String aircraftID;
-    private String aircraftType;
-    private int firstClassSeats;
-    private int businessClassSeats;
-    private int mainClassSeats;
+    private String hotelID; 
+    private String name;
+    private String description;
+    private Float rating;
+    private String address;
+    private String contactInformation;
+    private 
 }
