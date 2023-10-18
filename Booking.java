@@ -9,14 +9,11 @@ import lombok.NoArgsConstructor;
 
 public class Booking
 {
-    private Passenger passengerID;
-    private Flight flightNumber;
-    private Payment paymentNumber;
+    private String bookingID;
+    private String userID;
+    private Date checkInDate;
+    private Date checkOutDate;
+    private Float totalPrice;
+    private String status;
 
-    public Booking(String bookingID, Timestamp bookingDateTime, String seatNumber, String flightClass, double price, Passenger passengerID, Flight flightNumber, Payment paymentNumber) {
-        super(bookingID, bookingDateTime, seatNumber, flightClass, price);
-        this.passengerID = passengerID;
-        this.flightNumber = flightNumber;
-        this.paymentNumber = paymentNumber;
-    }
 }
