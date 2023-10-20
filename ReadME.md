@@ -16,10 +16,19 @@ All URIs start with: `http://localhost:8080/api/v1`
 
 |Network|Description| 
 |---|---| 
-|`/product`|Retrieves all products| 
-|`/product/{id}`| Retrieves a specific product based on it's ID|
+|`/users`|Retrieves all users| 
+|`/users/{id}`| Retrieves a specific user based on it's ID|
+|`/hotels`|Retrieves all hotels| 
+|`/hotels/{id}`| Retrieves a specific hotel based on it's ID|
+|`/bookings`|Retrieves all bookings| 
+|`/bookings/{id}`| Retrieves a specific booking based on it's ID|
+|`/rooms`|Retrieves all rooms| 
+|`/rooms/{id}`| Retrieves a specific room based on it's ID|
+|`/reviews`|Retrieves all reviews| 
+|`/reviews/{id}`| Retrieves a specific review based on it's ID|
 
 ### WalkThrough
 
 
+![codegif](https://github.com/cis-famu/booking-api-part-1-xavier-wildy/assets/79477645/0cf4a2eb-b8ae-46c2-ba42-9ad22a4c113c)
 
