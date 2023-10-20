@@ -19,4 +19,7 @@ All URIs start with: `http://localhost:8080/api/v1`
 |`/product`|Retrieves all products| 
 |`/product/{id}`| Retrieves a specific product based on it's ID|
 
+### WalkThrough
+
+
 
